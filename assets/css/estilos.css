@@ -3,13 +3,20 @@ body{
 }
 .contenedor-flex{
 	display:flex;
+	width: 100%;
+	justify-content: center;
 }
 .lista1{
 	display: flex;
+	width: 100%;
+	justify-content: center;
 }
 .items{
-	margin-right: 50px;
+	margin-right: 70px;
 	margin-top:90px;
+	list-style: none;
+
+	
 
 }
 .container-navegador{
@@ -54,7 +61,7 @@ body{
 	height: 300px;
 }
 .imagen2{
-	width: 300px;
+	width: 320px;
 	height: 310px;
 }
 
@@ -89,7 +96,8 @@ body{
 }
 .items1{
 	line-height: 50px;
-	font-size: 13px;
+	font-size: 15px;
+	list-style: none;
 }
 .card{
 	border: none;
@@ -116,6 +124,8 @@ body{
 	width: 80%;
 
 }
+
+
 .contenedor-boton{
 	margin-top: 30px;
 	display: flex;
@@ -127,3 +137,163 @@ body{
 	color: white;
 	background-color: #1E90FF;
 }
+.palabra{
+	color: #1E90FF;
+}
+.container-proyectos-titulo{
+	margin-top: 60px;
+}
+
+.titulo{
+	font-size: 30px;
+}
+.imagen3{
+	width: 350px;
+	height: 300px;
+	
+}
+.imagen4{
+	width: 350px;
+	height: 300px;
+	margin-top: 20px;
+}
+.container-img-proyecto{
+	margin-top: 40px;
+}
+.container-final1{
+	margin-top: 100px;
+	background-color: 
+	
+}
+.lista-final1{
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.texto-final3{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	margin-top: 30px;
+}
+.texto2{
+	font-size: 15px;
+}
+.texto3{
+
+}
+.card{
+	margin-top: 50px;
+}
+
+
+
+
+.final-texto{
+	margin-top: 20px;
+
+}
+.items2{
+	list-style: none;
+
+
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+	.imagen{
+		width: 250px;
+		height: 190px;
+		position: relative;
+		right: 25px;
+	}
+	.imagen2{
+		width: 220px;
+		height: 190px;
+		position: relative;
+		top: 50px;
+		right:140px;
+	}
+	.imagen3{
+		width: 250px;
+		height: 150px;
+		margin-bottom: 10px;
+
+		
+	}
+	.contenedor-img2{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.imagen4{
+		width: 250px;
+		height: 150px;
+
+		margin-top: 10px;
+	}
+	.items{
+		font-size: 12px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	.contenedor-flex{
+		display: block;
+
+	}
+	.inicio{
+		width: 100%;
+		justify-content: center;
+		margin-right: 10px;
+
+	}
+	.texto{
+		font-size: 20px;
+		text-align: center;
+	}
+	.texto1{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.items1{
+		line-height: 35px;
+	}
+	.lista2{
+		font-size: 13px;
+	}
+	.titulo{
+		font-size: 20px;
+		text-align: center;
+	}
+	.contenedor-boton{
+		justify-content: center;
+		display: flex;
+		width: 100%;
+
+	}
+	.texto2{
+		font-size: 13px;
+	}
+	.imagen-final{
+		width: 100%;
+		justify-content: center;
+		display: flex;
+	}
+
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	
+
+
+
+
+}
+
+
+
+
+
