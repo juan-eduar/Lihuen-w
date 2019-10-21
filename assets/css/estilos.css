@@ -1,40 +1,100 @@
-body{
+body {
 	font-family: 'Montserrat', sans-serif;
 }
-.contenedor-flex{
-	display:flex;
-	width: 100%;
-	justify-content: center;
-}
-.lista1{
+
+.contenedor-flex {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 }
-.items{
+
+section {
+	padding-top: 50px;
+}
+
+.lista1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.items {
 	margin-right: 70px;
-	margin-top:90px;
+	margin-top: 90px;
 	list-style: none;
 
-	
+
 
 }
-.container-navegador{
+
+.container-navegador {
 	background-color: #1E90FF;
 	margin-top: 20px;
+	padding-top: 0px;
 }
-.nav-link{
+
+.nav-link {
 	color: white;
+}
+
+.nav-link-tabs.active {
+	font-size: 18px;
+	font-weight: 900;
+	padding: 10px;
+	border-top: 2px solid #1E90FF;
+	color: #1E90FF;
 
 }
-.container-inicio{
+
+.nav-link-tabs {
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.nav-link-tabs:hover {
+	text-decoration: none;
+}
+
+.container-inicio {
 	padding-top: 20px;
 }
 
+.mask {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.main-banner__text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.main-banner__title p {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.main-banner__item {
+	position: relative;
+}
 
 .main-banner__content {
 	width: 100%;
 }
+
 .main-banner__img {
 	width: 100%;
 	height: 65vh;
@@ -45,236 +105,308 @@ body{
 	height: 100%;
 	object-fit: cover;
 }
-.main-banner{
+
+.main-banner {
 	margin-top: 20px;
 }
 
-
-
-}
-.container-introduccion{
+.container-introduccion {
 	margin-top: 60px;
 
 }
-.imagen{
+
+.imagen {
 	width: 350px;
 	height: 300px;
 }
-.imagen2{
+
+.imagen2 {
 	width: 320px;
 	height: 310px;
 }
 
-
-}
-.texto{
+.texto {
 	text-align: center;
+	position: relative;
 }
-.texto1{
+
+.texto::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	width: 50px;
+	height: 2px;
+	background-color: #1E90FF;
+}
+
+.texto1 {
 	text-align: justify;
 	font-size: 14px;
 }
-.descripcion{
+
+.descripcion {
 	margin-top: 50px;
 }
-.imagen-descripcion{
+
+.imagen-descripcion {
 	margin-right: 20px;
 	position: relative;
-	top:70px;
+	top: 70px;
 	left: 30px;
-	
+
 
 }
-.imagen-descripcion2{
+
+.imagen-descripcion2 {
 	position: relative;
-	bottom:60px;
+	bottom: 60px;
 	left: 210px;
 
 }
-.container-introduccion{
+
+.container-introduccion {
 	display: flex;
 }
-.items1{
+
+.items1 {
 	line-height: 50px;
 	font-size: 15px;
 	list-style: none;
 }
-.card{
+
+.items1 i {
+	color: #fff;
+	background-color: #1E90FF;
+	padding: 4px 6px;
+	border-radius: 50%;
+}
+
+.card {
 	border: none;
 
 }
-.card-titulo{
+
+.card-titulo {
 	text-align: center;
 	font-size: 18px;
 }
-.card-texto{
+
+.card-texto {
 	text-align: center;
 	font-size: 13px;
 }
-.card-img{
+
+.card-img {
 	width: 150px;
-	height: 120px;
+	height: 90px;
 }
-.contenedor-img{
+
+.contenedor-img {
 	width: 100%;
 	justify-content: center;
 	display: flex;
 }
-.linea{
+
+.linea {
 	width: 80%;
 
 }
 
 
-.contenedor-boton{
+.contenedor-boton {
 	margin-top: 30px;
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	
+
 }
-.btn{
+
+.btn-white {
+	background-color: #fff;
+	color: #1E90FF;
+}
+
+.btn-blue {
 	color: white;
 	background-color: #1E90FF;
 }
-.palabra{
+
+.palabra {
 	color: #1E90FF;
 }
-.container-proyectos-titulo{
+
+.container-proyectos-titulo {
 	margin-top: 60px;
 }
 
-.titulo{
+.titulo {
 	font-size: 30px;
 }
-.imagen3{
+
+.imagen3 {
 	width: 350px;
 	height: 300px;
-	
+
 }
-.imagen4{
+
+.imagen4 {
 	width: 350px;
 	height: 300px;
 	margin-top: 20px;
 }
-.container-img-proyecto{
+
+.container-img-proyecto {
 	margin-top: 40px;
 }
-.container-final1{
+
+.container-final1 {
 	margin-top: 100px;
-	background-color: 
-	
+	background-color:
+
 }
-.lista-final1{
-	margin-top: 40px;
+
+.lista-final1 {
+	/* margin-top: 40px; */
 	line-height: 40px;
 }
 
-.texto-final3{
+.texto-final2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.texto-final2__flexstart {
+	align-items: flex-start;
+}
+
+.texto-final3 {
 	width: 100%;
 	justify-content: center;
 	display: flex;
 	margin-top: 30px;
 }
-.texto2{
+
+.texto2 {
 	font-size: 15px;
 }
-.texto3{
 
-}
-.card{
+.texto3 {}
+
+.card {
 	margin-top: 50px;
 }
 
 
 
 
-.final-texto{
+.final-texto {
 	margin-top: 20px;
 
 }
-.items2{
+
+.items2 {
 	list-style: none;
-
-
 }
 
-@media (min-width: 0px) and (max-width: 767px){
-	.imagen{
+.lista2 {
+	padding-left: 0px !important;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.imagen {
 		width: 250px;
 		height: 190px;
 		position: relative;
 		right: 25px;
 	}
-	.imagen2{
+
+	.imagen2 {
 		width: 220px;
 		height: 190px;
 		position: relative;
 		top: 50px;
-		right:140px;
+		right: 140px;
 	}
-	.imagen3{
+
+	.imagen3 {
 		width: 250px;
 		height: 150px;
 		margin-bottom: 10px;
 
-		
+
 	}
-	.contenedor-img2{
+
+	.contenedor-img2 {
 		width: 100%;
 		display: flex;
 		justify-content: center;
 	}
-	.imagen4{
+
+	.imagen4 {
 		width: 250px;
 		height: 150px;
 
 		margin-top: 10px;
 	}
-	.items{
+
+	.items {
 		font-size: 12px;
 		margin-right: 20px;
 		margin-top: 20px;
 	}
 
-	.contenedor-flex{
+	.contenedor-flex {
 		display: block;
 
 	}
-	.inicio{
+
+	.inicio {
 		width: 100%;
 		justify-content: center;
 		margin-right: 10px;
 
 	}
-	.texto{
+
+	.texto {
 		font-size: 20px;
 		text-align: center;
 	}
-	.texto1{
+
+	.texto1 {
 		font-size: 13px;
 		line-height: 20px;
 	}
-	.items1{
+
+	.items1 {
 		line-height: 35px;
 	}
-	.lista2{
+
+	.lista2 {
 		font-size: 13px;
 	}
-	.titulo{
+
+	.titulo {
 		font-size: 20px;
 		text-align: center;
 	}
-	.contenedor-boton{
+
+	.contenedor-boton {
 		justify-content: center;
 		display: flex;
 		width: 100%;
 
 	}
-	.texto2{
+
+	.texto2 {
 		font-size: 13px;
 	}
-	.imagen-final{
+
+	.imagen-final {
 		width: 100%;
 		justify-content: center;
 		display: flex;
@@ -285,15 +417,23 @@ body{
 
 
 }
-@media (min-width: 768px) and (max-width: 991px){
-	
+
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
-
-
+.text-color {
+	color: #1E90FF;
 }
 
+.card-services {
+	display: flex;
+	justify-content: center;
+}
 
-
-
-
+.tabs-section {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: flex-end;
+	margin-top: 60px;
+}
