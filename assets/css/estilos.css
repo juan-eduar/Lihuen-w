@@ -22,10 +22,15 @@ section {
 	margin-right: 70px;
 	margin-top: 90px;
 	list-style: none;
-
-
-
+	display: flex;
+	align-items: baseline;
 }
+
+.items i {
+	margin-right: 10px;
+}
+
+
 
 .container-navegador {
 	background-color: #1E90FF;
