@@ -329,7 +329,8 @@ section {
 .lista2 {
 	padding-left: 0px !important;
 }
-.propiedades-img{
+
+.propiedades-img {
 	width: 100%;
 	height: 250px;
 	border-top-left-radius: 5px;
@@ -337,15 +338,18 @@ section {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
-.titulo-propiedades{
+
+.titulo-propiedades {
 	text-align: center;
 	font-size: 22px;
 }
-.propiedades-card{
+
+.propiedades-card {
 	margin-top: 50px;
-	
+
 }
-.columnas-propiedades{
+
+.columnas-propiedades {
 	display: flex;
 	justify-content: center;
 }
