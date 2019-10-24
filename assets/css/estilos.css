@@ -350,9 +350,83 @@ section {
 }
 
 .columnas-propiedades {
-	display: flex;
+	display:
 	justify-content: center;
 }
+.img-navs{
+	width: 130px;
+	height: 110px;
+	margin-bottom: 
+}
+.img-mostrar{
+	width: 550px;
+	height: 400px;
+	
+}
+.main {
+	font-family:Arial;
+	width:500px;
+	display:block;
+	margin:0 auto;
+}
+.propiedades{
+	margin-left: 20px;
+}
+
+.columnas-propiedades{
+	display
+
+}
+.titulo1{
+	font-size: 30px;
+	text-align: ;
+}
+.texto2{
+	font-size: 14px;
+	line-height: 30px;
+	text-align: justify;
+	margin-left:
+}
+.lista-propiedades__contactos{
+	margin-left:
+	line-height: 30px;
+	list-style: none;
+}
+
+
+h3 {
+	background: #fff;
+	color: #3498db;
+	font-size: 36px;
+	line-height: 100px;
+	margin: 10px;
+	padding: 2%;
+	position: relative;
+	text-align: center;
+}
+.action{
+	display:block;
+	margin:100px auto;
+	width:100%;
+	text-align:center;
+}
+.action a {
+	display:inline-block;
+	padding:5px 10px; 
+	background:#f30;
+	color:#fff;
+	text-decoration:none;
+}
+.action a:hover{
+	background:#000;
+}
+.texto-contacto{
+	
+}
+.contactos-propiedades{
+	margin-top: 40px;
+}
+
 
 @media (min-width: 0px) and (max-width: 767px) {
 	.imagen {
