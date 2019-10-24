@@ -227,6 +227,9 @@ section {
 	width: 80%;
 
 }
+.card-body{
+	
+}
 
 
 .contenedor-boton {
@@ -335,8 +338,8 @@ section {
 	height: 250px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: px;
+	border-bottom-left-radius: px;
 }
 
 .titulo-propiedades {
@@ -425,6 +428,23 @@ h3 {
 }
 .contactos-propiedades{
 	margin-top: 40px;
+}
+.iconos{
+	margin-right: 10px;
+}
+.propiedades-iconos{
+	margin-left: 20px;
+}
+.card-propiedad{
+	box-shadow: 1px 2px 20px 0em #f1f0f0, 1px -1px 0 4em #ffffff;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+
+}
+.texto-propiedad{
+	font-size: 13px;
+	text-align: justify;
+
 }
 
 
