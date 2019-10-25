@@ -453,6 +453,19 @@ h3 {
 	text-align: justify;
 
 }
+.main-contant__item__form{
+	margin-top: 50px;
+}
+.contacto__titulo{
+	font-size: 20px;
+	text-align: center;
+}
+.items2{
+
+}
+.cuadro__texto{
+	color: white;
+}
 
 
 @media (min-width: 0px) and (max-width: 767px) {
