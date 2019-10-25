@@ -359,11 +359,17 @@ section {
 .img-navs{
 	width: 130px;
 	height: 110px;
-	margin-bottom: 
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+
+
 }
 .img-mostrar{
 	width: 550px;
 	height: 400px;
+	
 	
 }
 .main {
@@ -431,6 +437,7 @@ h3 {
 }
 .iconos{
 	margin-right: 10px;
+	font-size: 14px;
 }
 .propiedades-iconos{
 	margin-left: 20px;
