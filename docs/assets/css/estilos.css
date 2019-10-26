@@ -473,9 +473,7 @@ h3 {
 }
 .img-clientes{
 	width: 170px;
-	box-shadow: 1px 2px 20px 0em #f1f0f0, 1px -1px 0 4em #ffffff;
-	flex: 1 1 auto;
-	padding: 1.25rem;
+
 }
 .dropdown-item{
 	color: #002060;
@@ -486,6 +484,8 @@ h3 {
 	bottom: 250px;
 
 }
+
+
 
 
 
