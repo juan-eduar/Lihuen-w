@@ -474,6 +474,16 @@ h3 {
 .img-clientes{
 	width: 170px;
 }
+.dropdown-item{
+	color: #1E90FF;
+}
+.cuadro{
+	position: absolute;
+	left: 200px;
+	bottom: 250px;
+
+}
+
 
 
 @media (min-width: 0px) and (max-width: 767px) {
