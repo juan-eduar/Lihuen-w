@@ -466,6 +466,14 @@ h3 {
 .cuadro__texto{
 	color: white;
 }
+.main-banner__cards{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.img-clientes{
+	width: 170px;
+}
 
 
 @media (min-width: 0px) and (max-width: 767px) {
