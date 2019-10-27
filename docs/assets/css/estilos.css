@@ -158,6 +158,7 @@ section {
 .texto1 {
 	text-align: justify;
 	font-size: 14px;
+	line-height: 30px;
 }
 
 .descripcion {
