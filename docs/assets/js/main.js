@@ -24,3 +24,9 @@ $('a[data-slide]').click(function(e) {
 	var slideno = $(this).data('slide');
 	$('.slider-nav').slick('slickGoTo', slideno - 1);
 });
+$('.main-banne-content__logos').slick({
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 4000,
+});

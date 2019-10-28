@@ -486,7 +486,43 @@ h3 {
 	bottom: 250px;
 
 }
+.contenedor-img__logos{
+	justify-content: 
+	display: 
+	width: ;
 
+}
+.btn-green{
+	background-color: #32CD32;
+	color: white;
+}
+.btn-green:hover{
+	color: white;
+	font-weight: 900;
+
+}
+.btn-orange{
+	background-color:  #FF4500;
+	color: white;
+}
+.btn-orange:hover{
+	color: white;
+	font-weight: 900;
+}
+.cuadro1{
+	position: absolute;
+	left: 180px;
+	bottom: 250px;
+
+}
+.main-footer__form{
+
+}
+.btn-box{
+	margin-bottom: 30px;
+	margin-right: 20px;
+
+}
 
 
 
@@ -641,21 +677,24 @@ input[type="number"] {
 	margin: 0 0px 20px;
 	height: 45px;
 	padding: 6px 15px;
-	border-radius: 5px;
+	border-radius: px;
 	outline: none;
 	border: none;
 	/* background: rgba(214, 218, 224, 0.52); */
 	color: #efc09c;
 	font-size: 16px;
-	border-bottom: 1px solid rgba(214, 218, 224, 0.52);
+	border-bottom: 1px solid #1E90FF;
+	
 }
 
 input:focus {
 	border-bottom: 2px solid #1E90FF;
+	border-left: 2px solid  #1E90FF;
 	border-color: transparent;
 	outline: 0;
 	box-shadow: 0 0 0 0.2rem transparent !important;
 	border-radius: 0px;
+	bo
 }
 
 textarea {
@@ -663,7 +702,7 @@ textarea {
 	margin: 0 0px 20px;
 	height: 45px;
 	padding: 6px 15px;
-	border-radius: 5px;
+
 	outline: none;
 	border: none;
 	/* background: rgba(214, 218, 224, 0.52); */
@@ -672,13 +711,16 @@ textarea {
 	font-size: 16px;
 	height: 100px;
 	resize: none;
+	border-bottom: 1px solid #1E90FF;
 
 }
 
 textarea:focus {
 	border-bottom: 2px solid #1E90FF !important;
+	border-left: 2px solid #1E90FF !important;
 	border-color: transparent;
 	outline: 0;
 	/* box-shadow: 0 0 0 0.2rem transparent !important; */
-	border-radius: 0px;
+
+	
 }
