@@ -31,6 +31,20 @@ section {
 }
 
 
+.navbar.fixed-top {
+	height: 85px;
+	background-color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+.nav-brand {
+	display: none;
+
+}
+
+.nav-brand.brand-visible {
+	display: block;
+}
 
 .container-navegador {
 	background-color: #1E90FF;
@@ -40,6 +54,18 @@ section {
 
 .nav-link {
 	color: white;
+}
+
+.nav-link.fixed-color {
+	color: #1E90FF;
+	font-weight: 300;
+	transition: 0.3s ease-in-out;
+}
+
+.nav-link.fixed-color:hover {
+	color: #1E90FF;
+	font-weight: 900;
+	transition: 0.3s ease-in-out;
 }
 
 .nav-item.active .nav-link {
@@ -228,9 +254,8 @@ section {
 	width: 80%;
 
 }
-.card-body{
-	
-}
+
+.card-body {}
 
 
 .contenedor-boton {
@@ -356,9 +381,10 @@ section {
 
 .columnas-propiedades {
 	display:
-	justify-content: center;
+		justify-content: center;
 }
-.img-navs{
+
+.img-navs {
 	width: 130px;
 	height: 110px;
 	border-bottom-right-radius: 5px;
@@ -368,39 +394,44 @@ section {
 
 
 }
-.img-mostrar{
+
+.img-mostrar {
 	width: 550px;
 	height: 400px;
-	
-	
+
+
 }
+
 .main {
-	font-family:Arial;
-	width:500px;
-	display:block;
-	margin:0 auto;
+	font-family: Arial;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
 }
-.propiedades{
+
+.propiedades {
 	margin-left: 20px;
 }
 
-.columnas-propiedades{
+.columnas-propiedades {
 	display
-
 }
-.titulo1{
+
+.titulo1 {
 	font-size: 30px;
 	text-align: ;
 }
-.texto2{
+
+.texto2 {
 	font-size: 14px;
 	line-height: 30px;
 	text-align: justify;
 	margin-left:
 }
-.lista-propiedades__contactos{
+
+.lista-propiedades__contactos {
 	margin-left:
-	line-height: 30px;
+		line-height: 30px;
 	list-style: none;
 }
 
@@ -415,110 +446,128 @@ h3 {
 	position: relative;
 	text-align: center;
 }
-.action{
-	display:block;
-	margin:100px auto;
-	width:100%;
-	text-align:center;
+
+.action {
+	display: block;
+	margin: 100px auto;
+	width: 100%;
+	text-align: center;
 }
+
 .action a {
-	display:inline-block;
-	padding:5px 10px; 
-	background:#f30;
-	color:#fff;
-	text-decoration:none;
+	display: inline-block;
+	padding: 5px 10px;
+	background: #f30;
+	color: #fff;
+	text-decoration: none;
 }
-.action a:hover{
-	background:#000;
+
+.action a:hover {
+	background: #000;
 }
-.texto-contacto{
-	
-}
-.contactos-propiedades{
+
+.texto-contacto {}
+
+.contactos-propiedades {
 	margin-top: 40px;
 }
-.iconos{
+
+.iconos {
 	margin-right: 10px;
 	font-size: 14px;
 }
-.propiedades-iconos{
+
+.propiedades-iconos {
 	margin-left: 20px;
 }
-.card-propiedad{
+
+.card-propiedad {
 	box-shadow: 1px 2px 20px 0em #f1f0f0, 1px -1px 0 4em #ffffff;
 	flex: 1 1 auto;
 	padding: 1.25rem;
 
 }
-.texto-propiedad{
+
+.texto-propiedad {
 	font-size: 13px;
 	text-align: justify;
 
 }
-.main-contant__item__form{
+
+.main-contant__item__form {
 	margin-top: 50px;
 }
-.contacto__titulo{
+
+.contacto__titulo {
 	font-size: 20px;
 	text-align: center;
 }
-.items2{
 
-}
-.cuadro__texto{
+.items2 {}
+
+.cuadro__texto {
 	color: white;
 }
-.main-banner__cards{
+
+.main-banner__cards {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 }
-.img-clientes{
+
+.img-clientes {
 	width: 170px;
 
 }
-.dropdown-item{
+
+.dropdown-item {
 	color: #002060;
 }
-.cuadro{
+
+.cuadro {
 	position: absolute;
 	left: 200px;
 	bottom: 250px;
 
 }
-.contenedor-img__logos{
-	justify-content: 
-	display: 
-	width: ;
+
+.contenedor-img__logos {
+	justify-content:
+		display: width:;
 
 }
-.btn-green{
+
+.btn-green {
 	background-color: #32CD32;
 	color: white;
 }
-.btn-green:hover{
+
+.btn-green:hover {
 	color: white;
 	font-weight: 900;
 
 }
-.btn-orange{
-	background-color:  #FF4500;
+
+.btn-orange {
+	background-color: #FF4500;
 	color: white;
 }
-.btn-orange:hover{
+
+.btn-orange:hover {
 	color: white;
 	font-weight: 900;
 }
-.cuadro1{
+
+.cuadro1 {
 	position: absolute;
 	left: 180px;
 	bottom: 250px;
 
 }
-.main-footer__form{
 
-}
-.btn-box{
+.main-footer__form {}
+
+.btn-box {
 	margin-bottom: 30px;
 	margin-right: 20px;
 
@@ -542,10 +591,11 @@ h3 {
 		top: 50px;
 		right: 140px;
 	}
-	.nav-link-tabs{
+
+	.nav-link-tabs {
 		font-size: 15px;
 	}
-	
+
 
 	.imagen3 {
 		width: 250px;
@@ -684,12 +734,12 @@ input[type="number"] {
 	color: #efc09c;
 	font-size: 16px;
 	border-bottom: 1px solid #1E90FF;
-	
+
 }
 
 input:focus {
 	border-bottom: 2px solid #1E90FF;
-	border-left: 2px solid  #1E90FF;
+	border-left: 2px solid #1E90FF;
 	border-color: transparent;
 	outline: 0;
 	box-shadow: 0 0 0 0.2rem transparent !important;
@@ -722,5 +772,5 @@ textarea:focus {
 	outline: 0;
 	/* box-shadow: 0 0 0 0.2rem transparent !important; */
 
-	
+
 }
