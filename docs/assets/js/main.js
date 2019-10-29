@@ -29,6 +29,31 @@ $('.main-banne-content__logos').slick({
 	slidesToScroll: 1,
 	autoplay: true,
 	autoplaySpeed: 4000,
+	responsive: [
+	{
+		breakpoint: 1024,
+		settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: true
+		}
+	},
+	{
+		breakpoint: 600,
+		settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		}
+	},
+	{
+		breakpoint: 480,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
 });
 
 // Menú fixed
@@ -37,6 +62,7 @@ $(window).scroll(function () {
 		$('.navbar-fixed-js').addClass('fixed-top');
 		$('.nav-link').addClass('fixed-color');
 		$('.btn-white').addClass('btn-blue');
+		$('.navbar-collapse').addClass('scroll-collapse');
 		// $('.nav-top__header').addClass('nav-top__header--detele');
 		// $('.hamburger-inner').addClass('js-hamburger');
 		// $("#iso").addClass('img-size').attr('src', 'assets/img/Logo_CM.png').removeClass('scroll-up');
@@ -45,6 +71,7 @@ $(window).scroll(function () {
 		$('.navbar-fixed-js').removeClass('fixed-top');
 		$('.nav-link').removeClass('fixed-color');
 		$('.btn-white').removeClass('btn-blue');
+		$('.navbar-collapse').removeClass('.scroll-collapse');
 		// $('.nav-top__header').removeClass('nav-top__header--detele');
 		// $('.hamburger-inner').removeClass('js-hamburger');
 		// $("#iso").removeClass('img-size').attr('src', 'assets/img/logo-color.png').removeClass('scroll-up');
