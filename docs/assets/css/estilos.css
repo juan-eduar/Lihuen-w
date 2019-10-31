@@ -855,10 +855,106 @@ textarea:focus {
 
 
 	}
+	.container-img-proyecto{
+		position: relative;
+	}
+	.etiqueta2{
+		position: absolute;
+		background: #1e90ff;
+		color: #fff;
+
+		font-weight: 600;
+		padding: 5px;
+
+		width: 67%;
+		height: auto;
+		top: 266px;
+		text-align: center;
+
+		text-align: center;
+	}
+	.etiqueta3{
+		position: absolute;
+		background: #32CD32;
+		color: #fff;
+
+		font-weight: 600;
+		padding: 5px;
+
+		width: 67%;
+		height: auto;
+		top: 266px;
+		text-align: center;
+
+		text-align: center;
+	}
+	.etiqueta4{
+		position: absolute;
+		background: #1e90ff;
+		color: #fff;
+
+		font-weight: 600;
+		padding: 5px;
+
+		width: 67%;
+		height: auto;
+		top: 286px;
+		text-align: center;
+
+		text-align: center;
+	}
+	.etiqueta5{
+		position: absolute;
+		background: #32CD32;
+		color: #fff;
+
+		font-weight: 600;
+		padding: 5px;
+
+		width: 67%;
+		height: auto;
+		top: 286px;
+		text-align: center;
+
+		text-align: center;
+	}
+
+
+	.main-img__title p{
+		font-size: 20px;
+		color: #fff;
+		font-weight: 600;
+		text-align: center;
+
+	}
+	.main-img__text{
+		position: absolute;
+		width: 60%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+	}
+	.boton-section{
+		position: absolute;
+
+		right: 100px;
+		bottom: 40px;
+	}
+	.btn-white1{
+		color: #1e90ff;
+		background-color: white;
+		font-size: 22px;
+		width: 120%;
+	}
+
 
 	.nav-link-tabs {
 		font-size: 10px;
 	}
+
 
 
 	.imagen3 {
@@ -1031,6 +1127,11 @@ textarea:focus {
 		bottom: 260px;
 
 
+	}
+	.contenedor-proyectos{
+		position: relative;
+		overflow: hidden;
+		
 	}
 }
 
